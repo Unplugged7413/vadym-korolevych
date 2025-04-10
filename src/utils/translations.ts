@@ -1,19 +1,46 @@
 export const translations = {
   en: {
+    // Hero section
     heroTitle: "Hi, I'm Vadym Korolevych",
     heroRole: "Data Analyst / Scientist",
-    role: "Data Analyst / Scientist",
-    contactTitle: "Get in Touch",
+    heroCTA: "View my work",
+
+    // Scroll buttons
+    scrollSkills: "Skills",
+    scrollContact: "Contact",
+
+    // About section
+    aboutTitle: "About Me",
+    aboutText:
+      "Detail-oriented Data Analyst/Scientist proficient in SQL, Python, Google Sheets, and Tableau, with experience using Looker Studio, Excel, and GA4. Completed a data analytics course and currently deepening expertise in machine learning. Skilled in data collection, cleaning, preprocessing, chart design, and dashboard creation. Background in computer science. Known for emotional intelligence, stress resistance, and a strong drive for continuous learning.",
+
+    // Skills section
+    skillsTitle: "Skills and Expertise",
+    skillsSubtitle: "Tools and technologies I work with",
+
+    skillsCategoryProgramming: "Programming Languages",
+    skillsCategoryTools: "Tools and Technologies",
+    skillsCategoryData: "Data and Analytical Skills",
+
+    // Projects section
     projectsTitle: "Projects",
-    aboutMeTitle: "About Me",
-    skillsTitle: "Skills",
     projectsFilterAll: "All",
     projectsFilterSQL: "SQL",
     projectsFilterTableau: "Tableau",
     projectsFilterPython: "Python",
-    projectsFilterML: "ML",
-    scrollDown: "Scroll Down",
-    // Add more translations as needed
+    projectsFilterML: "Machine Learning",
+
+    // Contact section
+    contactTitle: "Get in Touch",
+    contactSubtitle: "I'd love to connect and discuss opportunities",
+    contactInfoTitle: "Contact Information",
+    contactFormName: "Name",
+    contactFormEmail: "Email",
+    contactFormMessage: "Message",
+    contactConnect: "Connect with me",
+
+    // Footer
+    footerRights: "All rights reserved",
   },
   sk: {
     // Hero section
@@ -55,7 +82,7 @@ export const translations = {
     contactFormMessage: "Správa",
     contactConnect: "Spojte sa so mnou",
 
-    // Footer (якщо є)
+    // Footer
     footerRights: "Všetky práva vyhradené",
   }
 }; 

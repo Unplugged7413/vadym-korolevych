@@ -20,7 +20,7 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            {t.aboutMeTitle}
+            {t.aboutTitle}
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300">
             Get to know me better
@@ -35,11 +35,7 @@ const About = () => {
           className="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-lg"
         >
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-            Detail-oriented Data Analyst/Scientist proficient in SQL, Python, Google Sheets, and Tableau, 
-            with experience using Looker Studio, Excel, and GA4. Completed a data analytics course and 
-            currently deepening expertise in machine learning. Skilled in data collection, cleaning, 
-            preprocessing, chart design, and dashboard creation. Background in computer science. Known 
-            for emotional intelligence, stress resistance, and a strong drive for continuous learning.
+            {t.aboutText}
           </p>
         </motion.div>
       </div>
