@@ -4,9 +4,10 @@ import { useContext, useState, useEffect } from "react";
 import { LanguageContext } from "./ClientLayout";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
-  const { language, setLanguage } = useContext(LanguageContext);
+  const { setLanguage } = useContext(LanguageContext);
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -48,10 +49,10 @@ const Navbar = () => {
           {/* Language switcher with flags */}
           <div className="flex items-center space-x-2">
             <button onClick={() => setLanguage("en")}>
-              <img src="/flags/us.png" alt="us-flag" className="w-6 h-6" />
+              <Image src="/flags/us.png" alt="us-flag" width={24} height={24} />
             </button>
             <button onClick={() => setLanguage("sk")}>
-              <img src="/flags/sk.png" alt="sk-flag" className="w-6 h-6" />
+              <Image src="/flags/sk.png" alt="sk-flag" width={24} height={24} />
             </button>
           </div>
         </div>

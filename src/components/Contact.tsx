@@ -82,7 +82,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-300">
-            Let's connect and discuss opportunities
+            Let&apos;s connect and discuss opportunities
           </p>
         </motion.div>
 
@@ -221,7 +221,7 @@ const Contact = () => {
                 animate={{ opacity: 1, y: 0 }}
                 className="text-green-600 dark:text-green-400 text-center"
               >
-                Message sent successfully! I'll get back to you soon.
+                Message sent successfully! I&apos;ll get back to you soon.
               </motion.p>
             )}
             {submitStatus === 'error' && (
